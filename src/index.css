@@ -12,12 +12,49 @@ code {
     monospace;
 }
 
-ul {
+/* ul {
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
-}
+} */
 
 a {
   text-decoration: none;
+}
+
+
+
+.Main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-me {
+  width: 30%;
+}
+.projects-container {
+  display: flex;
+  width: 60%;
+}
+
+.project-image {
+  border-radius: 5px;
+  border: solid 2px gray
+}
+
+.project-title {
+  margin-top: 0;
+}
+.project-text {
+  text-align: left;
+  padding: 0 20px 0 18px;
+}
+
+.project-languages {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
 }
