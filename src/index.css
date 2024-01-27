@@ -12,11 +12,17 @@ code {
     monospace;
 }
 
-/* ul {
+.header-ul {
   list-style-type: none;
   display: flex;
-  justify-content: space-evenly;
-} */
+  flex-direction: column;
+  /* display: flex;
+  justify-content: space-evenly; */
+}
+
+.header-li {
+  padding: 14px
+}
 
 a {
   text-decoration: none;
@@ -31,15 +37,28 @@ a {
 
 .main-me {
   width: 30%;
+  padding: 96px 0px;
+  position: sticky;
+  top:0
 }
-.projects-container {
-  display: flex;
+
+.name {
+  margin-top: 0;
+}
+
+.projects {
   width: 60%;
+  padding: 96px 0px;
+}
+.projects-container, .projects-container2 {
+  display: flex;
+  /* flex-direction: column; */
 }
 
 .project-image {
   border-radius: 5px;
-  border: solid 2px gray
+  border: solid 2px gray;
+  /* display: inline-block; */
 }
 
 .project-title {
@@ -48,6 +67,7 @@ a {
 .project-text {
   text-align: left;
   padding: 0 20px 0 18px;
+  /* display: inline-block; */
 }
 
 .project-languages {
@@ -57,4 +77,13 @@ a {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 40px;
+}
+
+.Header {
+  padding-bottom: 500px;
+}
+
+.footer {
+  position: sticky;
+  bottom:0;
 }

@@ -2,7 +2,7 @@
 const Footer = (props) => {
 
     //The Components Returned JSX
-    return <div className="Footer"> This is Footer</div>
+    return <div className="footer"> This is Footer</div>
 }
 
 // export the component

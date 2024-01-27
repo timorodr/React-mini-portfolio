@@ -1,5 +1,6 @@
 import Projects from "./Projects.js"
 import Header from "./Header.js"
+import Footer from "./Footer.js"
 
 
 // the component function
@@ -9,10 +10,11 @@ const Main = (props) => {
     return (
     <div className="Main"> 
         <div className="main-me">
-            <h1>Timothy Rodriguez</h1>
+            <h1 className="name">Timothy Rodriguez</h1>
             <h2>Software Engineer</h2>
             <p>Empathetic innovator with a problem-solving mind, transitioning from occupational therapy to build empowering software solutions for a healthier future.</p>
             <Header/>
+            <Footer/>
         </div>
         <Projects />
     </div>
