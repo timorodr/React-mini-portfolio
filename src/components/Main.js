@@ -10,12 +10,12 @@ const Main = (props) => {
     return (
     <div className="Main"> 
         <div className="main-me">
-            <h1 className="name">Timothy Rodriguez</h1>
-            <h2>Software Engineer</h2>
-            <p>Empathetic innovator with a problem-solving mind, transitioning from occupational therapy to build empowering software solutions for a healthier future.</p>
+            <h1 className="name"><b>Timothy Rodriguez</b></h1>
+            <h2 className="occupation">Software Engineer</h2>
+            <p className="brand">Empathetic innovator with a problem-solving mind, transitioning from occupational therapy to build empowering software solutions for a healthier future.</p>
             <Header/>
             <Footer/>
-        </div>
+        </div>   
         <Projects />
     </div>
     )
