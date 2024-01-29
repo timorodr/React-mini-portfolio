@@ -5,7 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #14213d;
+  background-color: #0a192f;
+  ;
   
 }
 
@@ -19,7 +20,7 @@ code {
   display: flex;
   flex-direction: column;
   padding: 0;
-  color: #ffffff
+  color: #e6f1ff
 }
 
 .header-li {
@@ -28,13 +29,13 @@ code {
 
 a, a:visited {
   text-decoration: none;
-  color: #ffffff
+  color: #e6f1ff
 }
 
 .about {
   text-align: left;
   padding: 0 20px 0 0;
-  color: #e5e5e586
+  color: #a8b2d1
 }
 
 
@@ -65,16 +66,16 @@ a, a:visited {
   margin-top: 0;
   font-weight: 900;
   font-size: 36px;
-  color: #ffffff
+  color: #e6f1ff
 }
 
 .occupation {
-  color: #ffffff;
+  color: #e6f1ff;
   font-weight: 100;
 }
 
 .brand {
-  color: #e5e5e586
+  color: #a8b2d1
 }
 
 .projects {
@@ -87,7 +88,7 @@ a, a:visited {
 }
 
 .project-description {
-  color: #e5e5e586
+  color: #a8b2d1
 }
 
 .project-image {
@@ -98,7 +99,7 @@ a, a:visited {
 
 .project-title {
   margin-top: 0;
-  color: #ffffff;
+  color: #e6f1ff;
   font-weight: 300;
 }
 .project-text {
@@ -114,7 +115,11 @@ a, a:visited {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 40px;
-  color: #1B998B
+  color: #64ffda;
+}
+
+.project-li {
+  padding: 0 1rem;
 }
 
 .Header {
@@ -138,5 +143,5 @@ a, a:visited {
 }
 
 .footer-link, .footer-link:visited {
-  color: #e5e5e586
+  color: #a8b2d1
 }
