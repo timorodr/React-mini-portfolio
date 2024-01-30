@@ -12,7 +12,7 @@ const Main = (props) => {
         <div className="main-me">
             <h1 className="name">Timothy Rodriguez</h1>
             <h2 className="occupation">Software Engineer</h2>
-            <p className="brand">Empathetic innovator with a problem-solving mind, transitioning from occupational therapy to build empowering software solutions for a healthier future.</p>
+            <p className="brand">I build immersive, creative, and accessible digital playgrounds.</p>
             <Header/>
             <Footer/>
         </div>   
