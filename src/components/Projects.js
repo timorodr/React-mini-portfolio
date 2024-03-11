@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+
 // the component function
 const Projects = (props) => {
 
@@ -10,6 +11,19 @@ const Projects = (props) => {
     return (
     <div className="projects">
         <Aboutme/>
+        <div className="projects-container2">
+            <img src="https://i.imgur.com/OMifOjL.png" className="project-image" width="200" height="130"/>
+            <div className="project-text">
+                <h2 className="project-title"><a href="https://sealproject1-gules.vercel.app/">PokeRumble</a></h2>
+                <p className="project-description"><a href="https://github.com/timorodr/sealproject1" className="project-github">A searchable Pokedex and Pokemon fight club app based on weight class. Based on user weight input, a host of pokemon in your weight class will be the pokemon you would have to battle if you were a pokemon.</a></p>
+                <ul className="project-languages">
+                    <li className="project-li">HTML</li>
+                    <li className="project-li">CSS</li>
+                    <li className="project-li">Javascript</li>
+                    <li className="project-li">jQuery</li>
+                </ul>
+            </div>
+        </div>
         <div className="projects-container">
             <img src="https://i.imgur.com/UErtUn6.png" className="project-image" width="200" height="130"/>
             <div className="project-text">
@@ -25,15 +39,16 @@ const Projects = (props) => {
             </div>
         </div>
         <div className="projects-container2">
-            <img src="https://i.imgur.com/OMifOjL.png" className="project-image" width="200" height="130"/>
+            <img src="https://i.imgur.com/21pmldV.png" className="project-image" width="200" height="130"/>
             <div className="project-text">
-                <h2 className="project-title"><a href="https://sealproject1-gules.vercel.app/">PokeRumble</a></h2>
-                <p className="project-description"><a href="https://github.com/timorodr/sealproject1" className="project-github">A searchable Pokedex and Pokemon fight club app based on weight class. Based on user weight input, a host of pokemon in your weight class will be the pokemon you would have to battle if you were a pokemon.</a></p>
+                <h2 className="project-title"><a href="https://deluxe-trifle-0b2556.netlify.app/">Study Buddy</a></h2>
+                <p className="project-description"><a href="https://github.com/timorodr/MERNstack-FE" className="project-github">Study Buddy is a web application that allows users to create decks of flashcards to help them study anything from software development to foreign languages to trivia. This project was completed in collaboration with 3 other team members.</a></p>
                 <ul className="project-languages">
-                    <li className="project-li">HTML</li>
+                    <li className="project-li">MongoDB</li>
+                    <li className="project-li">Express.js</li>
+                    <li className="project-li">React</li>
+                    <li className="project-li">NodeJS</li>
                     <li className="project-li">CSS</li>
-                    <li className="project-li">Javascript</li>
-                    <li className="project-li">jQuery</li>
                 </ul>
             </div>
         </div>
