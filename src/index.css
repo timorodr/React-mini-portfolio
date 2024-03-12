@@ -84,6 +84,13 @@ a, a:visited {
 }
 .projects-container, .projects-container2 {
   display: flex;
+  padding-bottom: 10px;
+}
+
+.projects-container:hover, .projects-container2:hover {
+  background: radial-gradient(rgba(29, 78, 216, 0.15), transparent 80%);
+  background-color: #a8b2d110;
+  border-radius: 10px;
 }
 
 .project-description {
