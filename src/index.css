@@ -1,3 +1,5 @@
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -7,7 +9,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #0a192f;
   ;
-  
 }
 
 code {
@@ -49,7 +50,10 @@ a, a:visited {
   padding-left: 6rem;
   padding-right: 6rem;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-  
+}
+
+.about:hover {
+  background: radial-gradient(rgba(29, 78, 216, 0.15), transparent 80%);
 }
 
 

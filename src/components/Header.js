@@ -6,7 +6,7 @@ const Header = (props) => {
     <div className="Header">
         <nav>
             <ul className="header-ul">
-                <li className="header-li">About</li>
+                <li className="header-li"><a href="#aboutme">About</a></li>
                 <li className="header-li"><a href="https://github.com/timorodr">GitHub</a></li>
                 <li className="header-li"><a href="https://www.linkedin.com/in/timothy-rodriguez-swe/">LinkedIn</a></li>
             </ul>
