@@ -21,11 +21,14 @@ code {
   display: flex;
   flex-direction: column;
   padding: 0;
-  color: #e6f1ff
+  color: #e6f1ff;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-li {
-  padding: 14px
+  padding: 14px;
+  width: 20%
 }
 
 .header-li:hover {
