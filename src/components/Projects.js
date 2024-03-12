@@ -11,6 +11,7 @@ const Projects = (props) => {
     return (
     <div className="projects">
         <Aboutme/>
+        <h1 id="recent-projects">Recent Projects</h1>
         <div className="projects-container2">
             <img src="https://i.imgur.com/OMifOjL.png" className="project-image" width="200" height="130"/>
             <div className="project-text">
