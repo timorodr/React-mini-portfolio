@@ -29,7 +29,7 @@ const Projects = (props) => {
             <img src="https://i.imgur.com/UErtUn6.png" className="project-image" width="200" height="130"/>
             <div className="project-text">
                 <h2 className="project-title"><a href="https://project2-crud.onrender.com/">Tattooly: Tattoo Planning App</a></h2>
-                <p className="project-description"><a href="https://github.com/timorodr/Project-2" className="project-github">Tattooly is a tattoo planning app allowing for profile customizability, session saving, and everything needed for your next tattoo appointment! Create an account and begin adding your favorite tattoo reference photos, editing your budget, and updating your calendar for your next appointment. Enjoy, and make this app your canvas! Demo account username:tim14 password:123</a></p>
+                <p className="project-description"><a href="https://github.com/timorodr/Project-2" className="project-github">Tattooly is a tattoo planning app allowing for profile customizability, session saving, and everything needed for your next tattoo appointment! Create an account and begin adding your favorite tattoo reference photos, editing your budget, and updating your calendar for your next appointment. Enjoy, and make this app your canvas! <br></br><br></br>Demo account username:tim14 password:123</a></p>
                 <ul className="project-languages">
                     <li className="project-li">HTML</li>
                     <li className="project-li">CSS</li>
