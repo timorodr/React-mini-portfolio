@@ -65,9 +65,9 @@ html {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-.about:hover {
+/* .about:hover {
   background: radial-gradient(rgba(29, 78, 216, 0.15), transparent 80%);
-}
+} */
 
 
 
@@ -115,11 +115,11 @@ html {
   }
 }
 
-.projects-container:hover, .projects-container2:hover {
+/* .projects-container:hover, .projects-container2:hover {
   background: radial-gradient(rgba(29, 78, 216, 0.15), transparent 80%);
   background-color: #a8b2d110;
   border-radius: 10px;
-}
+} */
 
 .project-description {
   color: #a8b2d1;
@@ -141,6 +141,11 @@ html {
   color: #e6f1ff;
   font-weight: 300;
 }
+
+/* .project-title:hover {
+  transform: scale(1.01, 1.5);
+  color:#64ffda
+} */
 .project-text {
   text-align: left;
   padding: 0 20px 0 18px;
@@ -154,6 +159,59 @@ html {
   margin-inline-end: 0px;
   padding-inline-start: 40px;
   color: #64ffda;
+}
+
+.btn-github{
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #e6f1ff;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #64ffda;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 5px;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 90px;
+  will-change: transform;
+}
+
+.btn-github:disabled {
+  pointer-events: none;
+}
+
+.btn-github:hover {
+  color: #0a192f;
+  background-color: #64ffda;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.btn-github:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.code-app-btn-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .project-li {
