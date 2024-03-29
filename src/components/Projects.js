@@ -10,26 +10,11 @@ const Projects = (props) => {
 
     //The Components Returned JSX
     return (
-    <div className="projects">
+    <div className="projects" id="aboutme">
         <Aboutme/>
         <h1 id="recent-projects">Recent Projects</h1>
-        <div className="projects-container2">
-            <img src="https://i.imgur.com/OMifOjL.png" className="project-image" width="200" height="130"/>
-            <div className="project-text">
-                <h2 className="project-title">PokeRumble</h2>
-                <p className="project-description">A retro-style searchable Pokedex(Name or ID) and Pokemon fight club app based on user weight input(+- 5 pounds). A host of pokemon in your weight class will be the pokemon you would have to battle if you were a pokemon.</p>
-                <ul className="project-languages">
-                    <li className="project-li">HTML</li>
-                    <li className="project-li">CSS</li>
-                    <li className="project-li">Javascript</li>
-                    <li className="project-li">jQuery</li>
-                </ul>
-                    <div className="code-app-btn-wrapper">
-                        <a href="https://sealproject1-gules.vercel.app/" className="project-github" target="_blank"><button className="btn-github">App</button></a>
-                        <a href="https://github.com/timorodr/sealproject1" className="project-github"><button className="btn-github">Code</button></a>
-                    </div>
-            </div>
-        </div>
+        <br></br>
+        <br></br>
         <div className="projects-container">
             <img src="https://i.imgur.com/UErtUn6.png" className="project-image" width="200" height="130"/>
             <div className="project-text">
@@ -44,7 +29,7 @@ const Projects = (props) => {
                 </ul>
                     <div className="code-app-btn-wrapper">
                         <a href="https://project2-crud.onrender.com/" className="project-github" target="_blank"><button className="btn-github">App</button></a>
-                        <a href="https://github.com/timorodr/Project-2" className="project-github"><button className="btn-github">Code</button></a>
+                        <a href="https://github.com/timorodr/Project-2" className="project-github" target="_blank"><button className="btn-github">Code</button></a>
                     </div>
             </div>
         </div>
@@ -63,7 +48,24 @@ const Projects = (props) => {
                 </ul>
                     <div className="code-app-btn-wrapper">
                         <a href="https://deluxe-trifle-0b2556.netlify.app/" className="project-github" target="_blank"><button className="btn-github">App</button></a>
-                        <a href="https://github.com/timorodr/MERNstack-FE" className="project-github"><button className="btn-github">Code</button></a>
+                        <a href="https://github.com/timorodr/MERNstack-FE" className="project-github" target="_blank"><button className="btn-github">Code</button></a>
+                    </div>
+            </div>
+        </div>
+        <div className="projects-container2">
+            <img src="https://i.imgur.com/OMifOjL.png" className="project-image" width="200" height="130"/>
+            <div className="project-text">
+                <h2 className="project-title">PokeRumble</h2>
+                <p className="project-description">A retro-style searchable Pokedex(Name or ID) and Pokemon fight club app based on user weight input(+- 5 pounds). A host of pokemon in your weight class will be the pokemon you would have to battle if you were a pokemon.</p>
+                <ul className="project-languages">
+                    <li className="project-li">HTML</li>
+                    <li className="project-li">CSS</li>
+                    <li className="project-li">Javascript</li>
+                    <li className="project-li">jQuery</li>
+                </ul>
+                    <div className="code-app-btn-wrapper">
+                        <a href="https://sealproject1-gules.vercel.app/" className="project-github" target="_blank"><button className="btn-github">App</button></a>
+                        <a href="https://github.com/timorodr/sealproject1" className="project-github" target="_blank"><button className="btn-github">Code</button></a>
                     </div>
             </div>
         </div>
