@@ -2,7 +2,8 @@
 const Aboutme = (props) => {
 
     //The Components Returned JSX
-    return <div className="about"> My story weaves together the compassion of an Occupational Therapist with the problem-solving drive of a Software Engineer. For years, I helped patients regain autonomy and rediscover joy through movement and occupational therapy. Witnessing the transformative power of individual healing ignited a new passion - I wanted to build tools that could reach and empower even more people. So, I took a leap, traded my therapy toolbox for a keyboard, and embarked on a journey into the world of code.
+    return <div className="about">
+        {/* My story weaves together the compassion of an Occupational Therapist with the problem-solving drive of a Software Engineer. For years, I helped patients regain autonomy and rediscover joy through movement and occupational therapy. Witnessing the transformative power of individual healing ignited a new passion - I wanted to build tools that could reach and empower even more people. So, I took a leap, traded my therapy toolbox for a keyboard, and embarked on a journey into the world of code.
     <br></br>
     <br></br>
     Today, I blend my clinical empathy with a developer's analytical mind. I understand the human behind the interface, the frustration of inaccessible technology, and the joy of finding intuitive solutions. My goal is to use technology to bridge the gap between need and possibility while building software that's not just technically sound, but also compassionate, accessible, and empowering. 
@@ -19,7 +20,7 @@ const Aboutme = (props) => {
     <br></br>
     <br></br>
     <br></br>
-    <br></br>
+    <br></br> */}
      </div>
 }
 
