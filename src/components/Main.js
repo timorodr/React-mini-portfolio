@@ -21,24 +21,16 @@ const Main = (props) => {
             </header>
               <div class="nav-scroller py-1 mb-3 border-bottom">
                 <nav class="nav nav-underline justify-content-between">
-                  <a class="nav-item nav-link link-body-emphasis active" href="#">World</a>
-                  <a class="nav-item nav-link link-body-emphasis" href="#">U.S.</a>
+                  <a class="nav-item nav-link link-body-emphasis active" href="#aboutme">World</a>
+                  <a class="nav-item nav-link link-body-emphasis" href="#projects">Projects</a>
                   <a class="nav-item nav-link link-body-emphasis" href="#">Technology</a>
-                  <a class="nav-item nav-link link-body-emphasis" href="#">Design</a>
-                  <a class="nav-item nav-link link-body-emphasis" href="#">Culture</a>
-                  <a class="nav-item nav-link link-body-emphasis" href="#">Business</a>
-                  <a class="nav-item nav-link link-body-emphasis" href="#">Politics</a>
-                  <a class="nav-item nav-link link-body-emphasis" href="#">Opinion</a>
-                  <a class="nav-item nav-link link-body-emphasis" href="#">Science</a>
-                  <a class="nav-item nav-link link-body-emphasis" href="#">Health</a>
-                  <a class="nav-item nav-link link-body-emphasis" href="#">Style</a>
-                  <a class="nav-item nav-link link-body-emphasis" href="#">Travel</a>
+               
                 </nav>
               </div>
             </div>
           
             <main class="container">
-              <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+              <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary" id="aboutme">
                 <div class="row"> 
                   <div class="col-lg-6 px-0">
                     <h1 class="display-4 fst-italic">Timothy Rodriguez</h1>
@@ -49,12 +41,14 @@ const Main = (props) => {
                     <p class="lead my-3">I'm still at the beginning of this exciting journey, constantly learning and growing. But every line of code is a step towards the ultimate vision: creating a future where technology seamlessly supports and empowers human potential, fostering healing, growth, and a healthier future for all!</p>
                   </div>
                   <div class="col-lg-6 px-0">
-
                     <img src="https://i.imgur.com/XUsBVIy.jpeg" alt="Your Name" class="img-fluid"></img>
                   </div>
                 </div>
               </div>
-          
+
+      <br></br>
+      
+            <h1 class="display-4 fst-italic text-center" id="projects">Projects</h1>
             <div class="row mb-2">
               <div class="col-md-12">
                 <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
@@ -64,20 +58,24 @@ const Main = (props) => {
                   <div class="col p-4 d-flex flex-column position-static">
                     <strong class="d-inline-block mb-2 text-primary-emphasis">Tattoo Planning App - Demo account username:tim14 password:123</strong>
                     <h3 class="mb-0">Tattooly</h3>
-                    <div class="mb-1 text-body-secondary" style={{display: "flex", justifyContent: "space-around", alignItems:"center"}}>2023 
-
-                        <li>HTML</li>
-                        <li>HTML</li>
-                        <li>HTML</li>
-                        <li>HTML</li>
-                        <li>HTML</li>
+                    <div class="mb-1 text-body-secondary" style={{display: "flex", justifyContent: "start", alignItems: "center", listStyleType: "none"}}>
+                        <li style={{marginRight: 12, color: "red"}}>HTML</li>
+                        <li style={{marginRight: 12}}>CSS</li>
+                        <li style={{marginRight: 12}}>Javascript</li>
+                        <li style={{marginRight: 12}}>MongoDB</li>
+                        <li style={{marginRight: 12}}>Express</li>
+                        <li style={{marginRight: 12}}>EJS</li>
                     </div>
-                    <p class="card-text mb-auto">Tattooly is a tattoo planning app allowing for profile customizability, session saving, and everything needed for your next tattoo appointment! Create an account and begin adding your favorite tattoo reference photos, editing your budget, and updating your calendar for your next appointment. Enjoy, and make this app your canvas!</p>
+                    <p class="card-text mb-auto">Tattooly simplifies tattoo planning, allowing users to customize profiles, save sessions, and manage appointments. Join now to turn your ideas into reality and make Tattooly your ultimate canvas!</p>
                     
-                    {/* <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
-                      Continue reading
-                      <svg class="bi"><use href="#chevron-right"/></svg>
-                    </a> */}
+                    <div class="p-1">
+                      <a href="#" class="icon-link gap-1 icon-link-hover" style={{marginRight: 12}}>
+                        View Project
+                      </a>
+                      <a href="#" class="icon-link gap-1 icon-link-hover">
+                        View Code
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -85,21 +83,59 @@ const Main = (props) => {
               <div class="col-md-12">
                 <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                   <div class="col p-4 d-flex flex-column position-static">
-                    <strong class="d-inline-block mb-2 text-success-emphasis">Design</strong>
-                    <h3 class="mb-0">Post title</h3>
-                    <div class="mb-1 text-body-secondary">Nov 11</div>
-                    <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
-                      Continue reading
-                      <svg class="bi"><use href="#chevron-right"/></svg>
-                    </a>
+                    <strong class="d-inline-block mb-2 text-success-emphasis">Flashcard Study App</strong>
+                    <h3 class="mb-0">StudyBuddy</h3>
+                    <div class="mb-1 text-body-secondary" style={{display: "flex", justifyContent: "start", alignItems: "center", listStyleType: "none"}}>
+                        <li style={{marginRight: 12}}>MongoDB</li>
+                        <li style={{marginRight: 12}}>Express</li>
+                        <li style={{marginRight: 12}}>React</li>
+                        <li style={{marginRight: 12}}>NodeJS</li>
+                    </div>
+                    <p class="mb-auto">Study Buddy is a web app for creating flashcard decks, ideal for studying software development, foreign languages, trivia, and more, developed with a team of 4 members.</p>
+                    <div class="p-1">
+                      <a href="#" class="icon-link gap-1 icon-link-hover" style={{marginRight: 12}}>
+                        View Project
+                      </a>
+                      <a href="#" class="icon-link gap-1 icon-link-hover">
+                        View Code
+                      </a>
+                    </div>
                   </div>
                   <div class="col-auto d-none d-lg-block">
-                    <img class="bd-placeholder-img" width="350" height="250" src="https://i.imgur.com/UErtUn6.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+                    <img class="bd-placeholder-img" width="350" height="250" src="https://i.imgur.com/TkHYMdb.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
                   </div>
                 </div>
               </div>
             </div>
+
+              <div class="col-md-12">
+                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                  <div class="col-auto d-none d-lg-block">
+                    <img class="bd-placeholder-img" width="350" height="250" src="https://i.imgur.com/xEBA7Dp.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+                  </div>
+                  <div class="col p-4 d-flex flex-column position-static">
+                    <strong class="d-inline-block mb-2 text-primary-emphasis">Wellness App - Demo account username:demoacct@demo.com password:demoacct</strong>
+                    <h3 class="mb-0">MediManage</h3>
+                    <div class="mb-1 text-body-secondary" style={{display: "flex", justifyContent: "start", alignItems: "center", listStyleType: "none"}}>
+                        <li style={{marginRight: 12, color: "red"}}>Golang</li>
+                        <li style={{marginRight: 12}}>React</li>
+                        <li style={{marginRight: 12}}>MongoDB</li>
+                        <li style={{marginRight: 12}}>Bootstrap</li>
+                    </div>
+                    <p class="card-text mb-auto">A medication management application for improved health, reduced side effects, fewer medication errors, and increased sense of control over health.</p>
+                    
+                    <div class="p-1">
+                      <a href="#" class="icon-link gap-1 icon-link-hover" style={{marginRight: 12}}>
+                        View Project
+                      </a>
+                      <a href="#" class="icon-link gap-1 icon-link-hover">
+                        View Code
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
           
             <div class="row g-5">
               <div class="col-md-8">
@@ -229,7 +265,7 @@ const Main = (props) => {
                 <div class="position-sticky" style={{top: 2}}>
           <div class="p-4 mb-3 bg-body-tertiary rounded">
             <h4 class="fst-italic">About</h4>
-            <p class="mb-0">Customize this section to tell your visitors a little bit about your publication, writers, content, or something else entirely. Totally up to you.</p>
+            <p class="mb-0">I build immersive, creative, and accessible digital playgrounds.</p>
           </div>
           <div>
             <h4 class="fst-italic">Recent posts</h4>
@@ -263,7 +299,7 @@ const Main = (props) => {
               </li>
             </ul>
           </div>
-          <div class="p-4">
+          {/* <div class="p-4">
             <h4 class="fst-italic">Archives</h4>
             <ol class="list-unstyled mb-0">
               <li><a href="#">March 2021</a></li>
@@ -279,7 +315,7 @@ const Main = (props) => {
               <li><a href="#">May 2020</a></li>
               <li><a href="#">April 2020</a></li>
             </ol>
-          </div>
+          </div> */}
           <div class="p-4">
             <h4 class="fst-italic">Elsewhere</h4>
             <ol class="list-unstyled">
