@@ -7,7 +7,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #0a192f32;
+  background-color: #909580;
   ;
 }
 
@@ -16,6 +16,16 @@ code {
     monospace;
 }
 
+#aboutme {
+  background-color: #FCF7FF;
+}
+
+/* #nav{
+  border-color: black;
+} */
+#footer, #connect{
+  background-color: #FCF7FF;
+}
 /* .header-ul {
   list-style-type: none;
   display: flex;
