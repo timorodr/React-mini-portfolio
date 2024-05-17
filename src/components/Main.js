@@ -5,6 +5,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faFile } from "@fortawesome/free-regular-svg-icons";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 
 // the component function
 const Main = (props) => {
@@ -71,11 +74,14 @@ const Main = (props) => {
                     <p class="card-text mb-auto">A medication management application for improved health, reduced side effects, fewer medication errors, and increased sense of control over health.</p>
                     
                     <div class="p-1">
-                      <a href="https://main--medimanage.netlify.app/" target="_blank" class="icon-link gap-1 icon-link-hover" style={{marginRight: 12}}>
-                        View Project
+                      <a href="https://main--medimanage.netlify.app/" target="_blank" class="icon-link gap-1 icon-link-hover" style={{marginRight: 12, color: "#FCF7FF", textDecoration: "underlined", textDecorationColor: "#FCF7FF"}}>
+                      <FontAwesomeIcon icon={faArrowRight} />View Project
                       </a>
-                      <a href="https://github.com/timorodr/go-react-final-BE" target="_blank" class="icon-link gap-1 icon-link-hover">
-                        View Code
+                      <a href="https://github.com/timorodr/go-react-final-BE" target="_blank" class="icon-link gap-1 icon-link-hover" style={{marginRight: 12, color: "#FCF7FF", textDecoration: "underlined", textDecorationColor: "#FCF7FF"}}>
+                      <FontAwesomeIcon icon={faArrowRight} />View Backend Code
+                      </a>
+                      <a href="https://github.com/timorodr/go-react-final-FE" target="_blank" class="icon-link gap-1 icon-link-hover" style={{marginRight: 12, color: "#FCF7FF", textDecoration: "underlined", textDecorationColor: "#FCF7FF"}}>
+                      <FontAwesomeIcon icon={faArrowRight} />View Frontend Code
                       </a>
                     </div>
                   </div>
@@ -95,11 +101,14 @@ const Main = (props) => {
                     </div>
                     <p class="mb-auto">Study Buddy is a web app for creating flashcard decks, ideal for studying software development, foreign languages, trivia, and more, developed with a team of 4 members.</p>
                     <div class="p-1">
-                      <a href="#" class="icon-link gap-1 icon-link-hover" style={{marginRight: 12}}>
-                        View Project
+                      <a href="https://deluxe-trifle-0b2556.netlify.app/" class="icon-link gap-1 icon-link-hover" style={{marginRight: 12, color: "#FCF7FF", textDecoration: "underlined", textDecorationColor: "#FCF7FF"}}>
+                      <FontAwesomeIcon icon={faArrowRight} />View Project
                       </a>
-                      <a href="#" class="icon-link gap-1 icon-link-hover">
-                        View Code
+                      <a href="https://github.com/timorodr/Unit3_PROJECT_BE" class="icon-link gap-1 icon-link-hover" style={{marginRight: 12, color: "#FCF7FF", textDecoration: "underlined", textDecorationColor: "#FCF7FF"}}>
+                      <FontAwesomeIcon icon={faArrowRight} />View Backend Code
+                      </a>
+                      <a href="https://github.com/timorodr/MERNstack-FE" class="icon-link gap-1 icon-link-hover" style={{marginRight: 12, color: "#FCF7FF", textDecoration: "underlined", textDecorationColor: "#FCF7FF"}}>
+                      <FontAwesomeIcon icon={faArrowRight} />View Frontend Code
                       </a>
                     </div>
                   </div>
@@ -128,11 +137,11 @@ const Main = (props) => {
                     <p class="card-text mb-auto">Tattooly simplifies tattoo planning, allowing users to customize profiles, save sessions, and manage appointments. Join now to turn your ideas into reality and make Tattooly your ultimate canvas!</p>
                     
                     <div class="p-1">
-                      <a href="#" class="icon-link gap-1 icon-link-hover" style={{marginRight: 12}}>
-                        View Project
+                      <a href="https://project2-crud.onrender.com/" class="icon-link gap-1 icon-link-hover" style={{marginRight: 12, color: "#FCF7FF", textDecoration: "underlined", textDecorationColor: "#FCF7FF"}}>
+                      <FontAwesomeIcon icon={faArrowRight} />View Project
                       </a>
-                      <a href="#" class="icon-link gap-1 icon-link-hover">
-                        View Code
+                      <a href="https://github.com/timorodr/Project-2" class="icon-link gap-1 icon-link-hover" style={{marginRight: 12, color: "#FCF7FF", textDecoration: "underlined", textDecorationColor: "#FCF7FF"}}>
+                      <FontAwesomeIcon icon={faArrowRight} />View Code
                       </a>
                     </div>
                   </div>
@@ -152,11 +161,11 @@ const Main = (props) => {
                     </div>
                     <p class="mb-auto">A retro-style searchable Pokedex(Name or ID) and Pokemon fight club app based on user weight input(+/- 5 pounds). A host of pokemon in your weight class will be the pokemon you would have to battle if you were a pokemon.</p>
                     <div class="p-1">
-                      <a href="#" class="icon-link gap-1 icon-link-hover" style={{marginRight: 12}}>
-                        View Project
+                      <a href="https://sealproject1-gules.vercel.app/" class="icon-link gap-1 icon-link-hover" style={{marginRight: 12, color: "#FCF7FF", textDecoration: "underlined", textDecorationColor: "#FCF7FF"}}>
+                      <FontAwesomeIcon icon={faArrowRight} />View Project
                       </a>
-                      <a href="#" class="icon-link gap-1 icon-link-hover">
-                        View Code
+                      <a href="https://github.com/timorodr/sealproject1" class="icon-link gap-1 icon-link-hover" style={{marginRight: 12, color: "#FCF7FF", textDecoration: "underlined", textDecorationColor: "#FCF7FF"}}>
+                      <FontAwesomeIcon icon={faArrowRight} />View Code
                       </a>
                     </div>
                   </div>
@@ -323,20 +332,10 @@ const Main = (props) => {
             <p>Drinking my Matcha Tea</p>
           </blockquote>
 
-          
-          {/* <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
-          <ul>
-            <li>First list item</li>
-            <li>Second list item with a longer description</li>
-            <li>Third list item to close it out</li>
-          </ul>
-          <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.</p> */}
+        
                 </article>
           
-                {/* <nav class="blog-pagination" aria-label="Pagination">
-          <a class="btn btn-outline-primary rounded-pill" href="#">Older</a>
-          <a class="btn btn-outline-secondary rounded-pill disabled" aria-disabled="true">Newer</a>
-                </nav> */}
+           
           
               </div>
           
@@ -379,6 +378,16 @@ const Main = (props) => {
                           </div>
                         </a>
                       </li>
+                      <li>
+                      <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="https://docs.google.com/document/d/1RFiD9BfOOwi-aQmA1ExnzfzXSRBeyFMUq-isewrs8N0/edit?usp=sharing" target="_blank">
+                        <li style={{height: 60}} aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><a href="https://docs.google.com/document/d/1RFiD9BfOOwi-aQmA1ExnzfzXSRBeyFMUq-isewrs8N0/edit?usp=sharing" target="_blank"><FontAwesomeIcon icon={faFile} style={{height: 60, color: "#FCF7FF"}}/></a></li>
+                          {/* <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> */}
+                          <div class="col-lg-8">
+                            <h3 class="mb-0">Resume</h3>
+                            {/* <small class="text-body-secondary">January 13, 2024</small> */}
+                          </div>
+                        </a>
+                      </li>
                     </ul>
                   </div>
                       {/* <div class="p-4">
@@ -415,7 +424,7 @@ const Main = (props) => {
           <footer class="py-5 text-center text-body-secondary" id="footer">
             <p>Created by Timothy Rodriguez<a href="https://www.linkedin.com/in/timothy-rodriguez-swe/" target="_blank"><FontAwesomeIcon icon={faLinkedin} style={{color: "black", marginLeft: 10}}/></a><a href="https://github.com/timorodr" target="_blank"><FontAwesomeIcon icon={faGithub} style={{color: "black", marginLeft: 10}}/></a><a href="mailto: timothyjayrodriguez@gmail.com" target="_blank"><FontAwesomeIcon icon={faEnvelope} style={{color: "black", marginLeft: 10}}/></a></p>
             <p class="mb-0">
-              <a href="#">Back to top</a>
+            <FontAwesomeIcon icon={faArrowUp} /><a href="#" style={{color: "black", marginLeft: 5}}>Back to top</a>
             </p>
           </footer>
         </div>
