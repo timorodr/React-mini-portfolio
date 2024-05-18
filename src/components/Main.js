@@ -99,15 +99,15 @@ const Main = (props) => {
                         <li style={{marginRight: 12, color: "#FCF7FF"}}>React</li>
                         <li style={{marginRight: 12, color: "#FCF7FF"}}>NodeJS</li>
                     </div>
-                    <p class="mb-auto">Study Buddy is a web app for creating flashcard decks, ideal for studying software development, foreign languages, trivia, and more, developed with a team of 4 members.</p>
+                    <p class="mb-auto">Study Buddy is a web app for creating flashcard decks, ideal for studying software development, foreign languages, trivia, and more, developed with 3 other team members.</p>
                     <div class="p-1">
-                      <a href="https://deluxe-trifle-0b2556.netlify.app/" class="icon-link gap-1 icon-link-hover" style={{marginRight: 12, color: "#FCF7FF", textDecoration: "underlined", textDecorationColor: "#FCF7FF"}}>
+                      <a href="https://deluxe-trifle-0b2556.netlify.app/" target="_blank" class="icon-link gap-1 icon-link-hover" style={{marginRight: 12, color: "#FCF7FF", textDecoration: "underlined", textDecorationColor: "#FCF7FF"}}>
                       <FontAwesomeIcon icon={faArrowRight} />View Project
                       </a>
-                      <a href="https://github.com/timorodr/Unit3_PROJECT_BE" class="icon-link gap-1 icon-link-hover" style={{marginRight: 12, color: "#FCF7FF", textDecoration: "underlined", textDecorationColor: "#FCF7FF"}}>
+                      <a href="https://github.com/timorodr/Unit3_PROJECT_BE" target="_blank" class="icon-link gap-1 icon-link-hover" style={{marginRight: 12, color: "#FCF7FF", textDecoration: "underlined", textDecorationColor: "#FCF7FF"}}>
                       <FontAwesomeIcon icon={faArrowRight} />View Backend Code
                       </a>
-                      <a href="https://github.com/timorodr/MERNstack-FE" class="icon-link gap-1 icon-link-hover" style={{marginRight: 12, color: "#FCF7FF", textDecoration: "underlined", textDecorationColor: "#FCF7FF"}}>
+                      <a href="https://github.com/timorodr/MERNstack-FE" target="_blank" class="icon-link gap-1 icon-link-hover" style={{marginRight: 12, color: "#FCF7FF", textDecoration: "underlined", textDecorationColor: "#FCF7FF"}}>
                       <FontAwesomeIcon icon={faArrowRight} />View Frontend Code
                       </a>
                     </div>
@@ -137,10 +137,10 @@ const Main = (props) => {
                     <p class="card-text mb-auto">Tattooly simplifies tattoo planning, allowing users to customize profiles, save sessions, and manage appointments. Join now to turn your ideas into reality and make Tattooly your ultimate canvas!</p>
                     
                     <div class="p-1">
-                      <a href="https://project2-crud.onrender.com/" class="icon-link gap-1 icon-link-hover" style={{marginRight: 12, color: "#FCF7FF", textDecoration: "underlined", textDecorationColor: "#FCF7FF"}}>
+                      <a href="https://project2-crud.onrender.com/" target="_blank" class="icon-link gap-1 icon-link-hover" style={{marginRight: 12, color: "#FCF7FF", textDecoration: "underlined", textDecorationColor: "#FCF7FF"}}>
                       <FontAwesomeIcon icon={faArrowRight} />View Project
                       </a>
-                      <a href="https://github.com/timorodr/Project-2" class="icon-link gap-1 icon-link-hover" style={{marginRight: 12, color: "#FCF7FF", textDecoration: "underlined", textDecorationColor: "#FCF7FF"}}>
+                      <a href="https://github.com/timorodr/Project-2" target="_blank" class="icon-link gap-1 icon-link-hover" style={{marginRight: 12, color: "#FCF7FF", textDecoration: "underlined", textDecorationColor: "#FCF7FF"}}>
                       <FontAwesomeIcon icon={faArrowRight} />View Code
                       </a>
                     </div>
@@ -161,10 +161,10 @@ const Main = (props) => {
                     </div>
                     <p class="mb-auto">A retro-style searchable Pokedex(Name or ID) and Pokemon fight club app based on user weight input(+/- 5 pounds). A host of pokemon in your weight class will be the pokemon you would have to battle if you were a pokemon.</p>
                     <div class="p-1">
-                      <a href="https://sealproject1-gules.vercel.app/" class="icon-link gap-1 icon-link-hover" style={{marginRight: 12, color: "#FCF7FF", textDecoration: "underlined", textDecorationColor: "#FCF7FF"}}>
+                      <a href="https://sealproject1-gules.vercel.app/" target="_blank" class="icon-link gap-1 icon-link-hover" style={{marginRight: 12, color: "#FCF7FF", textDecoration: "underlined", textDecorationColor: "#FCF7FF"}}>
                       <FontAwesomeIcon icon={faArrowRight} />View Project
                       </a>
-                      <a href="https://github.com/timorodr/sealproject1" class="icon-link gap-1 icon-link-hover" style={{marginRight: 12, color: "#FCF7FF", textDecoration: "underlined", textDecorationColor: "#FCF7FF"}}>
+                      <a href="https://github.com/timorodr/sealproject1" target="_blank" class="icon-link gap-1 icon-link-hover" style={{marginRight: 12, color: "#FCF7FF", textDecoration: "underlined", textDecorationColor: "#FCF7FF"}}>
                       <FontAwesomeIcon icon={faArrowRight} />View Code
                       </a>
                     </div>
