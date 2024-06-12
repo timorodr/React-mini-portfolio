@@ -379,7 +379,7 @@ const Main = (props) => {
                         </a>
                       </li>
                       <li>
-                      <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="Resume.pdf" target="_blank">
+                      <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="2024Resume.pdf" target="_blank">
                         <li style={{height: 60}} aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><a href="2024Resume.pdf" target="_blank"><FontAwesomeIcon icon={faFile} style={{height: 60, color: "#FCF7FF"}}/></a></li>
                           {/* <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> */}
                           <div class="col-lg-8">
